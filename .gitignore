@@ -1,0 +1,22 @@
+# Java / Build
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+# Maven
+target/
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+# IntelliJ / VSCode
+.idea/
+*.iml
+.vscode/
+# OS junk
+.DS_Store
+Thumbs.db
+# Env / secrets
+.env
